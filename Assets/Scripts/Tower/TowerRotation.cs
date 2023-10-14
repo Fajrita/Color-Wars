@@ -29,6 +29,6 @@ public class TowerRotation : MonoBehaviour
 
     void Rotate()
     {
-        transform.Rotate(new Vector3(0,0, input * rotSpeed * Time.deltaTime), Space.Self);
+        transform.Rotate(new Vector3(0,0, -input * rotSpeed * Time.deltaTime), Space.Self);
     }
 }
