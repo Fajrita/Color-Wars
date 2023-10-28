@@ -42,7 +42,7 @@ public class ShootBullet : MonoBehaviour
         pool.bullets[pool.bulletNumber].transform.position = disp.position;
         pool.bullets[pool.bulletNumber].transform.rotation = transform.rotation;
 
-        pool.bullets[pool.bulletNumber].transform.Rotate(new Vector3(0, 0, -60), -60, Space.Self);
+        pool.bullets[pool.bulletNumber].transform.Rotate(new Vector3(0, 0, 135), 135, Space.Self);
         pool.bullets[pool.bulletNumber].SetActive(true);
     }
 }
