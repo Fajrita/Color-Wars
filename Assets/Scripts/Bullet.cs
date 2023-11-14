@@ -10,15 +10,14 @@ public  class Bullet : MonoBehaviour
     [SerializeField] protected bool piercing;
     [SerializeField] protected string[] color;
     [SerializeField] protected float speed;
-    protected LayerMask Enemy = 6;
+    [SerializeField] protected LayerMask enemy;
 
-
-    public static int Damage(int damage)
+    public virtual void Update()
     {
-        return damage;
+        Movement();
     }
-    //public virtual void Movement()
-    //{
-    //    transform.Translate(speed * Time.deltaTime, 0, 0);
-    //}
+    public virtual void Movement()
+    {
+        transform.Translate(speed * Time.deltaTime, 0, 0);
+    }
 }

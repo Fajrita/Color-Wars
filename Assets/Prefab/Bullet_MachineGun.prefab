@@ -9,15 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4706147451947065895}
+  - component: {fileID: 4916587201240638193}
   - component: {fileID: 459787801566338400}
-  - component: {fileID: 887483237405912464}
-  - component: {fileID: 5543432404898492356}
-  - component: {fileID: 6744774907186919698}
   - component: {fileID: -1152127528026847221}
   - component: {fileID: 937171526736991979}
   m_Layer: 0
-  m_Name: Bullt_Green
-  m_TagString: Green
+  m_Name: Bullet_MachineGun
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,6 +35,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4916587201240638193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4390138325788932058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3c465c37006084ab790ff59f141163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  piercing: 0
+  color:
+  - Yellow
+  speed: 10
+  enemy:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!212 &459787801566338400
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -78,7 +96,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 883613469af485440a49aaa64fc03220, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 208797cda821c7947a3593fb72387073, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,47 +107,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &887483237405912464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4390138325788932058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac3c465c37006084ab790ff59f141163, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  piercing: 0
-  color:
-  - Green
-  speed: 10
---- !u!114 &5543432404898492356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4390138325788932058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 129719e45fe5cec4fb6adf46d0a11d28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6744774907186919698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4390138325788932058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caefdd1cb51deaa4f97646d56ef4c742, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &-1152127528026847221
 BoxCollider2D:
   m_ObjectHideFlags: 0

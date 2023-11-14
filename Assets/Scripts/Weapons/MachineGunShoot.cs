@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootBullet : MonoBehaviour
+public class MachineGunShoot : MonoBehaviour
 {
     private BulletPool pool;
     public Transform disp;
