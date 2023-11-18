@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class MachineGunShoot : MonoBehaviour
 {
-    private BulletPool pool;
+    //private BulletPool pool;
     public Transform disp;
 
     [SerializeField]
-    float shootingTime = 1;
-    float shootingTimeCounter;
+    private float shootingTime = 1;
+    private float shootingTimeCounter;
+
+    private int bulletPoolSize = 10;
+    public GameObject bullet;
+
+    [HideInInspector]
+    private GameObject[] bullets;
+    [HideInInspector]
+    private int bulletNumber = -1;
     void Start()
     {
-        pool = GameObject.FindObjectOfType<BulletPool>();
+        //pool = GameObject.FindObjectOfType<BulletPool>();
+
+        bullets = new GameObject[bulletPoolSize];
+        for (int i = 0; i < bulletPoolSize; i++)
+        {
+            Debug.Log("bullet");
+            bullets[i] = Instantiate(bullet, new Vector3(-10, -10f, -10f), Quaternion.identity);
+        }
     }
 
     void Update()
@@ -21,7 +36,7 @@ public class MachineGunShoot : MonoBehaviour
         {
             shootingTimeCounter -= Time.deltaTime;
         }
-        if (pool.bulletNumber < 9)
+        if (bulletNumber < 9)
         {
             if (shootingTimeCounter <= 0)
             {
@@ -29,20 +44,20 @@ public class MachineGunShoot : MonoBehaviour
                 Shooting();
             }
         }
-        else if (pool.bulletNumber >= 9)
+        else if (bulletNumber >= 9)
         {
-            pool.bulletNumber = -1;
+            bulletNumber = -1;
         }
 
     }
 
     public void Shooting()
     {
-        pool.bulletNumber++;
-        pool.bullets[pool.bulletNumber].transform.position = disp.position;
-        pool.bullets[pool.bulletNumber].transform.rotation = transform.rotation;
+        bulletNumber++;
+        bullets[bulletNumber].transform.position = disp.position;
+        bullets[bulletNumber].transform.rotation = transform.rotation;
 
-        pool.bullets[pool.bulletNumber].transform.Rotate(new Vector3(0, 0, 135), 135, Space.Self);
-        pool.bullets[pool.bulletNumber].SetActive(true);
+        bullets[bulletNumber].SetActive(true);
+        bullets[bulletNumber].transform.Rotate(new Vector3(0, 0, 135), 135, Space.Self);
     }
 }
