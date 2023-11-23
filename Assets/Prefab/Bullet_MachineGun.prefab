@@ -55,6 +55,9 @@ MonoBehaviour:
   enemy:
     serializedVersion: 2
     m_Bits: 64
+  screen:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!212 &459787801566338400
 SpriteRenderer:
   m_ObjectHideFlags: 0

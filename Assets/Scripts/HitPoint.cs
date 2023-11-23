@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HitPoint : MonoBehaviour
 {
+    float takingDamageTime = 1;
+    float takingDamageCounter;
 
     [SerializeField] protected int life;
     [SerializeField] protected string[] color;
@@ -24,6 +26,24 @@ public class HitPoint : MonoBehaviour
         {
             Debug.Log("dead");
             Destroy(gameObject);
+        }
+    }
+
+    public virtual void TimeTakeDamage(int damage)
+    {
+        if (takingDamageCounter > 0)
+        {
+            takingDamageCounter -= Time.deltaTime;
+        }
+        else
+        {
+            life -= damage;
+            takingDamageCounter = takingDamageTime;
+            if (life <= 0)
+            {
+                Debug.Log("dead");
+                Destroy(gameObject);
+            }
         }
     }
 }

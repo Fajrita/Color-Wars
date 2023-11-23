@@ -11,6 +11,7 @@ public  class Bullet : MonoBehaviour
     [SerializeField] protected string[] color;
     [SerializeField] protected float speed;
     [SerializeField] protected LayerMask enemy;
+    [SerializeField] protected LayerMask screen;
 
     public virtual void Update()
     {

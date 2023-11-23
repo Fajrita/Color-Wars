@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class BaseHitPont : HitPoint
 {
-    //public override void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    base.OnTriggerEnter2D(collision);
-    //}
-
     public override void TakeDamage(int damage)
     {
         base.TakeDamage(damage);
+    }
+    public override void TimeTakeDamage(int damage)
+    {
+        base.TimeTakeDamage(damage);
     }
 }

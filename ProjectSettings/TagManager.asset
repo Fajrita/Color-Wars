@@ -8,11 +8,12 @@ TagManager:
   - Green
   - Enemy
   - Yellow
+  - Weapon
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
   - Enemy

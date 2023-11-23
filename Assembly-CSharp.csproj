@@ -70,7 +70,9 @@
     <Compile Include="Assets\Scripts\Enemies\EnemySpawn.cs" />
     <Compile Include="Assets\Scripts\Tower\TowerRotation.cs" />
     <Compile Include="Assets\Scripts\Enemy_HitPoint\BaseHitPont.cs" />
+    <Compile Include="Assets\Scripts\Alejador.cs" />
     <Compile Include="Assets\Scripts\Weapons\BMachineGun.cs" />
+    <Compile Include="Assets\Scripts\mina.cs" />
     <Compile Include="Assets\Scripts\Weapons\MachineGunShoot.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MachineGunShoot : MonoBehaviour
 {
-    //private BulletPool pool;
-    public Transform disp;
+    [SerializeField]
+    Transform father;
 
     [SerializeField]
     private float shootingTime = 1;
@@ -20,18 +20,18 @@ public class MachineGunShoot : MonoBehaviour
     private int bulletNumber = -1;
     void Start()
     {
-        //pool = GameObject.FindObjectOfType<BulletPool>();
 
         bullets = new GameObject[bulletPoolSize];
         for (int i = 0; i < bulletPoolSize; i++)
         {
             Debug.Log("bullet");
-            bullets[i] = Instantiate(bullet, new Vector3(-10, -10f, -10f), Quaternion.identity);
+            bullets[i] = Instantiate(bullet, new Vector3(-10, -10f, -10f), Quaternion.identity, father);
         }
     }
 
     void Update()
     {
+
         if (shootingTimeCounter > 0)
         {
             shootingTimeCounter -= Time.deltaTime;
@@ -54,8 +54,10 @@ public class MachineGunShoot : MonoBehaviour
     public void Shooting()
     {
         bulletNumber++;
-        bullets[bulletNumber].transform.position = disp.position;
+        bullets[bulletNumber].transform.parent = father;
+        bullets[bulletNumber].transform.position = transform.position;
         bullets[bulletNumber].transform.rotation = transform.rotation;
+        bullets[bulletNumber].transform.parent = null;
 
         bullets[bulletNumber].SetActive(true);
         bullets[bulletNumber].transform.Rotate(new Vector3(0, 0, 135), 135, Space.Self);

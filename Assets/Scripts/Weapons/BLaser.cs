@@ -11,27 +11,23 @@ public class BLaser : Bullet
     {
         
     }
-
-    // Update is called once per frame
     public override void Update()
     {
-        rayHit = Physics2D.Raycast(transform.position, transform.right, 1f, enemy);
+        rayHit = Physics2D.Raycast(transform.position, transform.up, 8f, enemy);
         base.Update();
 
         if (rayHit)
         {
-            Debug.Log(rayHit.transform.name);
+            Debug.Log("laserhit");
             target = rayHit.collider.gameObject;
             targetHit = target.GetComponent<BaseHitPont>();
             MakeDamage(damage);
-            gameObject.SetActive(false);
-            transform.position = Vector3.zero;
         }
     }
+
     public void MakeDamage(int newDamage)
     {
-        Debug.Log("damage");
-        targetHit.TakeDamage(newDamage);
+        targetHit.TimeTakeDamage(newDamage);
         damage = newDamage;
     }
 }
