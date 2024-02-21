@@ -24,6 +24,7 @@ public class Slime : Enemy
 
     IEnumerator WaitMovement()
     {
+        // Movimiento de slimes, avanza, espera, avanza
         while (gameObject.activeSelf)
         {
             advance = true;

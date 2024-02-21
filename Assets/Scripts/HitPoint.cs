@@ -4,33 +4,28 @@ using UnityEngine;
 
 public class HitPoint : MonoBehaviour
 {
+    // Clase Hitpoint, todos heredan de aqui
     float takingDamageTime = 1;
     float takingDamageCounter;
 
     [SerializeField] protected int life;
     [SerializeField] protected string[] color;
-    //public virtual void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.tag == color[0])
-    //    {
-    //        Debug.Log("collision");
-    //        BMachineGun bullet = collision.gameObject.GetComponent<BMachineGun>();
-    //        TakeDamage(bullet.damage);
-    //    }
-    //}
 
     public  virtual void TakeDamage(int damage)
     {
+        /* Recibe el damage de las armas, y lo resta a la vida del hitpoint
+           Si la vida es 0 se destruye el hitponit */
         life -= damage;
         if (life <= 0)
         {
-            Debug.Log("dead");
             Destroy(gameObject);
         }
     }
 
     public virtual void TimeTakeDamage(int damage)
     {
+        /* Para armas que generan daño constantemente esto hace que haya,
+           un tiempo de espera entre el daño que va recibiendo*/
         if (takingDamageCounter > 0)
         {
             takingDamageCounter -= Time.deltaTime;
@@ -41,7 +36,6 @@ public class HitPoint : MonoBehaviour
             takingDamageCounter = takingDamageTime;
             if (life <= 0)
             {
-                Debug.Log("dead");
                 Destroy(gameObject);
             }
         }

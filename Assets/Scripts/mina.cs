@@ -7,7 +7,7 @@ public class mina : MonoBehaviour
 {
     [SerializeField] public int damage;
     [SerializeField] protected LayerMask enemy;
-    float activeTime = 5;
+    [SerializeField] float activeTime = 5;
 
     protected RaycastHit2D rayHit;
     GameObject target;
@@ -19,7 +19,7 @@ public class mina : MonoBehaviour
     void Update()
     {
         // revisar direccion del hit right, talvez hacer mas de uno
-        rayHit = Physics2D.Raycast(transform.position, transform.right, 1f, enemy);
+        rayHit = Physics2D.CircleCast(transform.position, 1f, transform.right, 0f, enemy);
         activeTime -= Time.deltaTime;
 
         if (activeTime <= 0)

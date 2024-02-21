@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MachineGunShoot : MonoBehaviour
 {
+    // instancia la bala, le da su velocidad de disparo y su ubicacion de inicio
     [SerializeField]
     Transform father;
 
@@ -20,18 +21,17 @@ public class MachineGunShoot : MonoBehaviour
     private int bulletNumber = -1;
     void Start()
     {
-
+        // Se instancian las bullets segun el poolsize
         bullets = new GameObject[bulletPoolSize];
         for (int i = 0; i < bulletPoolSize; i++)
         {
-            Debug.Log("bullet");
             bullets[i] = Instantiate(bullet, new Vector3(-10, -10f, -10f), Quaternion.identity, father);
         }
     }
 
     void Update()
     {
-
+        //tiempo entre disparos y conteo de balas maximas
         if (shootingTimeCounter > 0)
         {
             shootingTimeCounter -= Time.deltaTime;
@@ -53,6 +53,8 @@ public class MachineGunShoot : MonoBehaviour
 
     public void Shooting()
     {
+        /* father es de donde sale la bala disparada, copia su rotacion y posicion,
+         luego se desemparenta y se activa con la direccion correcta de disparo */
         bulletNumber++;
         bullets[bulletNumber].transform.parent = father;
         bullets[bulletNumber].transform.position = transform.position;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
 {
+    // Sistema de spawneo e instanciamiento de enemigos
     public GameObject enemy;
     public int enemyPoolSize = 10;
 
@@ -24,16 +25,7 @@ public class EnemySpawn : MonoBehaviour
     Vector2[] sides;
     void Start()
     {
-        x1 = Random.Range(-20,-8);
-        x2 = Random.Range(-8,7);
-        x3 = Random.Range(7,20);
-        x = new[] {x1,x1,x2,x3,x3}; 
-        top = new Vector2(x[Random.Range(0,x.Length)], 11);
-        bottom = new Vector2(x[Random.Range(0, x.Length)], -13);
-        left = new Vector2(-21, Random.Range(11, -13));
-        right = new Vector2(20, Random.Range(11, -13));
-        sides = new[] { top, bottom, left, right};
-
+        //instancia la cantidad de enemigos del pool fuera de escena
         enemies = new GameObject[enemyPoolSize];
         for (int i = 0; i < enemyPoolSize; i++)
         {
@@ -41,10 +33,26 @@ public class EnemySpawn : MonoBehaviour
         }
         StartCoroutine(Spawn());
     }
+
+    /* Spawnea un enemigo en un punto random, aumenta el conteo,
+     activa al gameobj y espera un tiempo random para el siguiente spawneo */
     IEnumerator Spawn() 
     {
         while (enemyNumber < 9)
-        { 
+        {
+            // rangos para que aparescan mas enemigos por los bordes mas alejados
+            x1 = Random.Range(-20f, -8f);
+            x2 = Random.Range(-8f, 7f);
+            x3 = Random.Range(7f, 20f);
+            x = new[] { x1, x3, x2, x1, x3 };
+
+            //lados de posible aparicion de enemigos
+            top = new Vector2(x[Random.Range(0, x.Length)], 11f);
+            bottom = new Vector2(x[Random.Range(0, x.Length)], -13f);
+            left = new Vector2(-21, Random.Range(11f, -13f));
+            right = new Vector2(20, Random.Range(11f, -13f));
+            sides = new[] { top, bottom, left, right };
+
             spawnPoint = Random.Range(0, sides.Length);
             enemyNumber++;
             enemies[enemyNumber].transform.position = sides[spawnPoint];
