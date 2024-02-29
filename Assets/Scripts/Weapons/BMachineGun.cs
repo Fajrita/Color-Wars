@@ -27,6 +27,7 @@ public class BMachineGun : Bullet
         // Si no esta en pantalla se desactiva y vuelve al origen
         if (!inScreen)
         {
+            Debug.Log("out");
             gameObject.SetActive(false);
             transform.position = Vector3.zero;
         }

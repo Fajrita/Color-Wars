@@ -8,6 +8,11 @@ TagManager:
   - Green
   - Enemy
   - Yellow
+  - Orange
+  - Red
+  - Blue
+  - Purple
+  - Cyan
   - Weapon
   layers:
   - Default
