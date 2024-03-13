@@ -60,20 +60,26 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.3f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/New_Erica/Test Scenes Nav/Continue.cs" />
     <Compile Include="Assets/New_Erica/CursorManager.cs" />
     <Compile Include="Assets/Scripts/HitPoint.cs" />
     <Compile Include="Assets/Scripts/Enemies/Slime.cs" />
     <Compile Include="Assets/Scripts/Bullet.cs" />
+    <Compile Include="Assets/New_Erica/Test Scenes Nav/MenuManager2.cs" />
     <Compile Include="Assets/Scripts/Pools/BulletPool.cs" />
+    <Compile Include="Assets/New_Erica/Test Scenes Nav/DelateAndPlay.cs" />
+    <Compile Include="Assets/New_Erica/Test Scenes Nav/PlayNewGame.cs" />
     <Compile Include="Assets/Scripts/Turret.cs" />
     <Compile Include="Assets/Scripts/Weapons/BLaser.cs" />
     <Compile Include="Assets/Scripts/Tower.cs" />
     <Compile Include="Assets/Scripts/Enemy.cs" />
+    <Compile Include="Assets/New_Erica/Test Scenes Nav/LoadScene.cs" />
     <Compile Include="Assets/Scripts/Weapons/LaserShoot.cs" />
     <Compile Include="Assets/Scripts/Enemies/EnemySpawn.cs" />
     <Compile Include="Assets/Scripts/Tower/TowerRotation.cs" />
     <Compile Include="Assets/Scripts/Enemy_HitPoint/BaseHitPont.cs" />
     <Compile Include="Assets/New_Erica/Collect.cs" />
+    <Compile Include="Assets/New_Erica/Test Scenes Nav/MenuManager.cs" />
     <Compile Include="Assets/New_Erica/ChangeColor.cs" />
     <Compile Include="Assets/Scripts/Alejador.cs" />
     <Compile Include="Assets/Scripts/Weapons/BMachineGun.cs" />
@@ -952,6 +958,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1154,6 +1164,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
