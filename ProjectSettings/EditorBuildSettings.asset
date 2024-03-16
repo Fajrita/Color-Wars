@@ -11,10 +11,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/New_Erica/Test Scenes Nav/Menu.unity
-    guid: bef6f9351fea744b599336d23b7fa95b
-  - enabled: 1
-    path: Assets/New_Erica/Test Scenes Nav/FakeGame.unity
-    guid: 31213a2fd70f1444ba6300c6a3ac8533
   m_configObjects: {}
