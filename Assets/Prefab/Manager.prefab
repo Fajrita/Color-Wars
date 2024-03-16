@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3765973267797839158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8246053608788524614}
+  - component: {fileID: 8764962121021327395}
+  - component: {fileID: 3578328445587904126}
+  - component: {fileID: 5909920606339145993}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8246053608788524614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765973267797839158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.92239904, y: 10.8122425, z: 0.05896997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8764962121021327395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765973267797839158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eec50d9cb190d142bdba6c9c1a03a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy:
+  - {fileID: 9215968732840768238, guid: 09d05b21dba546347b5a221950368cfb, type: 3}
+  - {fileID: 7976567825015904862, guid: b35a17257c9ec394d960585cb185d6ef, type: 3}
+  - {fileID: 3666645735412685434, guid: dafb75d56eb3b5a4c9c58a4a71f9ce92, type: 3}
+  enemyPoolSize: 10
+  enemies: []
+  enemyNumber: -1
+--- !u!114 &3578328445587904126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765973267797839158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bde9f23357ab4670990751571da525c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseCursor: {fileID: 2800000, guid: 762d0b557f31d43c89a35a36a6fa8f77, type: 3}
+  blueCursor: {fileID: 2800000, guid: 4a8104afd315c47ca9e05ff78b854396, type: 3}
+  yellowCursor: {fileID: 2800000, guid: b8ef4ecbd849b4e888f13923660dc047, type: 3}
+  myColor: 0
+--- !u!114 &5909920606339145993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765973267797839158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f07afded8698e40ae21ff6e71bce04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energy: {fileID: 8725150931682112506, guid: 9de675a72973a6d4d89bf80d91487536, type: 3}
+  nCoin: 0
+  mText: {fileID: 0}

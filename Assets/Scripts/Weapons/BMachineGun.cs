@@ -11,10 +11,7 @@ public class BMachineGun : Bullet
 
     GameObject target;
     BaseHitPont targetHit;
-    private void Start()
-    {
-        
-    }
+   
 
     public override void Update()
     {
@@ -36,11 +33,13 @@ public class BMachineGun : Bullet
            luego se desactiva y vuelve al origen */
         if (rayHit)
         {
-            Debug.Log("hit");
             target = rayHit.collider.gameObject;
             targetHit = target.GetComponent<BaseHitPont>();
-            //MakeDamage(damage);
-            targetHit.TakeDamage(damage);
+
+            if (targetHit.color.ToString() == bColor.ToString() || targetHit.color == Color.white)
+            {
+                targetHit.TakeDamage(damage);
+            }
             gameObject.SetActive(false);
             transform.position = Vector3.zero;
         }

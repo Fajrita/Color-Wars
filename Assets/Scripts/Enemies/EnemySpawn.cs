@@ -5,7 +5,8 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {
     // Sistema de spawneo e instanciamiento de enemigos
-    public GameObject enemy;
+    public GameObject [] enemy;
+    int numEnemigo;
     public int enemyPoolSize = 10;
 
     [HideInInspector]
@@ -27,9 +28,12 @@ public class EnemySpawn : MonoBehaviour
     {
         //instancia la cantidad de enemigos del pool fuera de escena
         enemies = new GameObject[enemyPoolSize];
+        
         for (int i = 0; i < enemyPoolSize; i++)
         {
-            enemies[i] = Instantiate(enemy, new Vector3(-10, -10f, -10f), Quaternion.identity);
+            numEnemigo = Random.Range(0, enemy.Length);
+            enemies[i] = Instantiate(enemy[numEnemigo], new Vector3(-10, -10f, -10f), Quaternion.identity);
+            enemies[i].SetActive(false);
         }
         StartCoroutine(Spawn());
     }

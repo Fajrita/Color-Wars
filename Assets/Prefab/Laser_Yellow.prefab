@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2810159829488085970}
   - component: {fileID: 8474183215051104381}
-  - component: {fileID: 7067609522503087503}
   m_Layer: 0
   m_Name: Bullt_Yellow
   m_TagString: Untagged
@@ -73,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 96a4b1ab43ba09c42a4c68ade396332e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -85,29 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7067609522503087503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830234222511547759}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb7119d34f8da4a4ebb2dc6e83f870e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  piercing: 0
-  color:
-  - Yellow
-  speed: 0
-  enemy:
-    serializedVersion: 2
-    m_Bits: 64
-  screen:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &8355026878126053532
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,8 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   piercing: 0
-  color:
-  - Yellow
+  bColor: {r: 0, g: 0, b: 0, a: 0}
   speed: 0
   enemy:
     serializedVersion: 2

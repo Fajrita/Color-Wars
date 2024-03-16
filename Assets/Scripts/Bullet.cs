@@ -9,13 +9,22 @@ public  class Bullet : MonoBehaviour
     // Clase base de bulltes
     [SerializeField] public int damage;
     [SerializeField] protected bool piercing;
-    [SerializeField] protected string[] color;
+    [SerializeField] public Color bColor;
     [SerializeField] protected float speed;
     [SerializeField] protected LayerMask enemy;
     [SerializeField] protected LayerMask screen;
 
+
     public virtual void Update()
     {
+        if(gameObject.GetComponent<SpriteRenderer>() == null)
+        {
+            bColor = gameObject.GetComponentInChildren<SpriteRenderer>().color;
+        }
+        else {
+            bColor = gameObject.GetComponent<SpriteRenderer>().color;
+        }
+       
         Movement();
     }
     public virtual void Movement()

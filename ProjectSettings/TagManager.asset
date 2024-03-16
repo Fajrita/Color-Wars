@@ -14,6 +14,8 @@ TagManager:
   - Purple
   - Cyan
   - Weapon
+  - Manager
+  - Tower
   layers:
   - Default
   - TransparentFX
@@ -50,4 +52,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: barrier
+    uniqueID: 4188922615
     locked: 0
