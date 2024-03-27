@@ -24,6 +24,11 @@ public class EnemySpawn : MonoBehaviour
     Vector2 left;
     Vector2 right;
     Vector2[] sides;
+
+    // Gestion velocidad de Spawn Enemigos
+    public float minVelocity;
+    public float maxVelocity;
+
     void Start()
     {
         //instancia la cantidad de enemigos del pool fuera de escena
@@ -42,7 +47,7 @@ public class EnemySpawn : MonoBehaviour
      activa al gameobj y espera un tiempo random para el siguiente spawneo */
     IEnumerator Spawn() 
     {
-        while (enemyNumber < 9)
+        while (enemyNumber < enemyPoolSize-1)
         {
             // rangos para que aparescan mas enemigos por los bordes mas alejados
             x1 = Random.Range(-20f, -8f);
@@ -61,7 +66,7 @@ public class EnemySpawn : MonoBehaviour
             enemyNumber++;
             enemies[enemyNumber].transform.position = sides[spawnPoint];
             enemies[enemyNumber].SetActive(true);
-            yield return new WaitForSeconds(Random.Range(2,4));
+            yield return new WaitForSeconds(Random.Range(minVelocity,maxVelocity));
         }
         
     }

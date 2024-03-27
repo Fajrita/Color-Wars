@@ -8,6 +8,7 @@ public class ChangeColor : MonoBehaviour
     
     public Image mySprite;
     public CursorManager myCursorManager;
+    public Button myButton;
 
 
     void Start()
@@ -47,6 +48,10 @@ public class ChangeColor : MonoBehaviour
             }
     }
 
-
+    private void Update()
+    {
+        if (myCursorManager.isUsingObject) myButton.interactable = false;
+        else myButton.interactable = true;
+    }
 
 }

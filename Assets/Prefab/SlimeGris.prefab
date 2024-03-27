@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimeGris
       objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: -7589364224739894313, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
       propertyPath: m_Name
       value: gorro

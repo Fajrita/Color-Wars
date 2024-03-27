@@ -16,6 +16,7 @@ TagManager:
   - Weapon
   - Manager
   - Tower
+  - Mine
   layers:
   - Default
   - TransparentFX

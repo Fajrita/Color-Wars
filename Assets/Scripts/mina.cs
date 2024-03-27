@@ -7,7 +7,7 @@ public class mina : MonoBehaviour
 {
     [SerializeField] public int damage;
     [SerializeField] protected LayerMask enemy;
-    [SerializeField] float activeTime = 5;
+    [SerializeField] float activeTime = 2;
 
     protected RaycastHit2D rayHit;
     GameObject target;

@@ -1,19 +1,32 @@
 ﻿<Properties StartupConfiguration="{FC932B3F-633B-055A-FA96-CBF59FF872FE}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="654038a5-a735-4989-bf3e-58040e7d5b5c" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/New_Erica/CursorManager.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Tower.cs" />
-      <File FileName="Assets/New_Erica/CursorManager.cs" Line="30" Column="1" />
-      <File FileName="Assets/New_Erica/ChangeColor.cs" />
-      <File FileName="Assets/Scripts/Weapons/BMachineGun.cs" />
-      <File FileName="Assets/Scripts/Weapons/MachineGunShoot.cs" />
-      <File FileName="Assets/Scripts/Bullet.cs" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a5a90144-499b-41b2-8af4-c9e37e1a90d7" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/New_Erica/LoadingScreen.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Tower.cs" />
+      <File FileName="Assets/New_Erica/CursorManager.cs" />
+      <File FileName="Assets/New_Erica/ObjectManager.cs" />
+      <File FileName="Assets/New_Erica/ChangeColor.cs" />
+      <File FileName="Assets/Scripts/Weapons/BMachineGun.cs" />
+      <File FileName="Assets/New_Erica/InstanciateObject.cs" />
+      <File FileName="Assets/Scripts/Weapons/MachineGunShoot.cs" />
+      <File FileName="Assets/Scripts/Bullet.cs" />
+      <File FileName="Assets/Scripts/Enemies/EnemySpawn.cs" />
+      <File FileName="Assets/New_Erica/Pausegame.cs" />
+      <File FileName="Assets/New_Erica/TRansparency.cs" />
+      <File FileName="Assets/Scripts/EnergySpawn.cs" />
+      <File FileName="Assets/Scripts/Enemy.cs" />
+      <File FileName="Assets/Scripts/Enemy_HitPoint/BaseHitPont.cs" />
+      <File FileName="Assets/New_Erica/Mine.cs" />
+      <File FileName="Assets/Scripts/mina.cs" />
+      <File FileName="Assets/Scripts/Enemies/Slime.cs" />
+      <File FileName="Assets/Scripts/HitPoint.cs" />
+      <File FileName="Assets/New_Erica/LoadingScreen.cs" Line="29" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
