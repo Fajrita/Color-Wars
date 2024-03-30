@@ -24,6 +24,8 @@ public class Enemy : MonoBehaviour
 
     public GameObject manager;
 
+    public bool isMoving = true;
+
     public virtual void Start()
     {
     }
@@ -53,7 +55,7 @@ public class Enemy : MonoBehaviour
     {
         /* Movimiento continuo de acercarse a la torre
          si esta en la barrera se detiene */
-        if (!inBarrier) transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        if (!inBarrier ) transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 
     IEnumerator AttackBarrier()

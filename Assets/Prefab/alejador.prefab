@@ -97,5 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ee32c4fb0e5c94db3ad686cde3ad28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  tower: {fileID: 2586268749839567051, guid: f58f28fb4c015054ca2eae28a96b1147, type: 3}
+  enemy:
+    serializedVersion: 2
+    m_Bits: 64
+  duration: 2
+  speed: 5
+  tower: {fileID: 9144018378255272114, guid: ae496bccc94620f4d8cc5971426ca6e7, type: 3}

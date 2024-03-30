@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|c:\\users\\ffajr\\archivos\\unity\\color wars\\assets\\scripts\\objects\\alejador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\alejador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|c:\\users\\ffajr\\archivos\\unity\\color wars\\assets\\scripts\\enemies\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\assets\\scripts\\objects\\mina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\mina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|c:\\users\\ffajr\\archivos\\unity\\color wars\\assets\\scripts\\objectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\assets\\scripts\\barrier\\colorbarrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\barrier\\colorbarrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\assets\\scripts\\manager\\energyspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\energyspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\assets\\scripts\\hitpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2515571-AB8B-DAD2-74A7-FE35F4394F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hitpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 129,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Slime.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Enemies\\Slime.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Slime.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Enemies\\Slime.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Slime.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T15:51:30.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Alejador.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Objects\\Alejador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Alejador.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Objects\\Alejador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\Alejador.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:06:28.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectManager.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\ObjectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectManager.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\ObjectManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:06:06.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mina.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Objects\\mina.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\mina.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Objects\\mina.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\mina.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwB0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:17:15.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColorBarrier.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Barrier\\ColorBarrier.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Barrier\\ColorBarrier.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Barrier\\ColorBarrier.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Barrier\\ColorBarrier.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:12:53.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HitPoint.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\HitPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HitPoint.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\HitPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HitPoint.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T13:58:33.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T13:58:13.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnergySpawn.cs",
+              "DocumentMoniker": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Manager\\EnergySpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\EnergySpawn.cs",
+              "ToolTip": "C:\\Users\\ffajr\\Archivos\\Unity\\Color Wars\\Assets\\Scripts\\Manager\\EnergySpawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\EnergySpawn.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T13:57:03.396Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

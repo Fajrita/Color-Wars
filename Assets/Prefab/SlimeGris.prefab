@@ -13,12 +13,28 @@ PrefabInstance:
       value: SlimeGris
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397927243000533325, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7589364224739894313, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
       propertyPath: m_Name
       value: gorro
+      objectReference: {fileID: 0}
+    - target: {fileID: -7589364224739894313, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7563328275996175418, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
       propertyPath: m_LocalScale.x
@@ -72,9 +88,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5275903580324693735, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4615798153891711312, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3871931781780722623, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1291376084244425271, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514277267147506254, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5657180972730608748, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
       propertyPath: m_Name
       value: slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657180972730608748, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093063948053145816, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6830386351801175938, guid: fd9cc020a74e4a74f82c798fbdba01be, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -115,6 +163,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   manager: {fileID: 3765973267797839158, guid: da445095729e43c45a9093d0b3f55aa7, type: 3}
+  isMoving: 1
 --- !u!95 &5339860434687198173
 Animator:
   serializedVersion: 5

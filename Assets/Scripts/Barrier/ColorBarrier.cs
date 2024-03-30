@@ -22,13 +22,13 @@ public class ColorBarrier : MonoBehaviour
         if(percentLife <= 100 && percentLife > 50 )
         {
             value1 = (percentLife - 50) / 50;
-            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(Color.yellow, Color.white, value1);
+            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(new Color(0.8301887f, 0.7640382f, 0, 1), Color.white, value1);
 
         }
         else if (percentLife <= 50)
         {
             value1 = percentLife / 50;
-            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(new Color(0.6981132f,0,0,1), Color.yellow,value1);
+            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(new Color(0.6981132f,0,0,1), new Color(0.8301887f, 0.7640382f, 0, 1), value1);
             
         }
     }

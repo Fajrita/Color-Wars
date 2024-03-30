@@ -1,0 +1,4 @@
+repository "Color Wars@Fajre@cloud"
+  path "/"
+    br "/main"
+    co "/main"
